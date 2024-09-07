@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar_bottom */
+.navbar_bottom {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    border: none;
+    background: none;
+}
+
+.yutub {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.qidiruv {
+    width: 800px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+    border: 0.5px solid gray;
+    margin-left: 200px;
+}
+
+.keyboard {
+    width: 30px;
+    height: 20px;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 1125px;
+    background: none;
+    border: none;
+    transition: 0.6s;
+}
+
+.lupa {
+    width: 70px;
+    height: 50px;
+    font-size: 35px;
+    margin-top: 25px;
+    padding: 3px 0 0 0;
+    margin-left: 1162px;
+    text-align: center;
+    border: 0.5px solid gray;
+    position: absolute;
+    border-radius: 0 50px 50px 0;
+    background: rgb(247, 244, 244);
+    transition: 0.6s;
+}
+
+.lupa:hover {
+    background: rgb(3, 163, 250);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.micro {
+    width: 30px;
+    height: 40px;
+    transition: 0.5s;
+    border-radius: 50%;
+    margin-top: 26px;
+    margin-left: 10px;
+    font-size: 35px;
+    border: none;
+    background: none;
+}
+
+.micro:hover {
+    background: rgb(3, 163, 250);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.advid {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 1280px;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 50%;
+    border: none;
+    background: none;
+}
+
+.advid:hover {
+    background: rgb(3, 163, 250);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.bell {
+    width: 40px;
+    height: 40px;
+    margin-top: 27px;
+    margin-left: 60px;
+    font-size: 35px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: none;
+    background: none;
+}
+
+.bell:hover {
+    background: rgb(3, 163, 250);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.ac {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: none;
+    background: none;
+}
+
+.ac:hover {
+    background: rgb(3, 163, 250);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+/* Navbar */
+.navbar {
+    width: 20%;
+    height: 100vh;
+}
+
+.navbar button {
+    width: 298px;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 50 px;
+    padding: 5px 0 0 5px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.7s;
+    background: none;
+    display: flex;
+}
+
+.navbar button:hover {
+    background: rgb(210, 209, 209);
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+/* Banner */
+.banner {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -754px;
+}
+
+/* Bayroqlar */
+.bayroqlar1 {
+    display: flex;
+}
+
+.bayroq {
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 3px solid black;
+}
+
+.bayroq .red {
+    width: auto;
+    height: 33.3px;
+    background: red;
+}
+
+.bayroq .red2 {
+    width: auto;
+    height: 50px;
+    background: red;
+}
+
+.bayroq .red3 {
+    width: auto;
+    height: 100px;
+    background: red;
+}
+
+.bayroq .red4 {
+    width: auto;
+    height: 3px;
+    background: red;
+}
+
+.bayroq .red5 {
+    width: auto;
+    height: 60px;
+    background: red;
+}
+
+.bayroq .blue {
+    width: auto;
+    height: 33.3px;
+    background: blue;
+}
+
+.bayroq .blue2 {
+    width: auto;
+    height: 50px;
+    background: blue;
+}
+
+.bayroq .blue3 {
+    width: auto;
+    height: 100px;
+    background: blue;
+}
+
+.bayroq .white {
+    width: auto;
+    height: 33.3px;
+    background: white;
+}
+
+.bayroq .white2 {
+    width: auto;
+    height: 50px;
+    background: white;
+}
+
+.bayroq .black {
+    width: auto;
+    height: 33.3px;
+    background: black;
+}
+
+.bayroq .black2 {
+    width: auto;
+    height: 50px;
+    background: black;
+}
+
+.bayroq .gold {
+    width: auto;
+    height: 33.3px;
+    background: gold;
+}
+
+.bayroq .gold2 {
+    width: auto;
+    height: 50px;
+    background: gold;
+}
+
+.bayroq .green {
+    width: auto;
+    height: 33.3px;
+    background: green;
+}
+
+.bayroq .green3 {
+    width: auto;
+    height: 100px;
+    background: green;
+}
+
+.bayroq .green4 {
+    width: auto;
+    height: 40px;
+    background: green;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.tak {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    margin-left: -680px;
+    color: blue;
+    font-size: 20px;
+    margin-top: 330px;
+    transition: 0.5s;
+    border: none;
+    border-radius: 20px;
+    background: white;
+}
+
+.tak:hover {
+    box-shadow: 0 0 10px 0 grey;
+}
